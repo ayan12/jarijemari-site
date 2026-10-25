@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex"><meta name="description" content="Jari Jemari Studio: Korean nail salon and academy in Damansara Perdana. Gel X, BIAB, nail art and Cherry Bomb lashes."><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Jari Jemari Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+:root{--bg:#fff4f8;--ink:#1c0f17;--soft:#6e5563;--pink:#ff4fa3;--bubble:#ffd3e6;--cherry:#e3123e;--line:#f2c4d8;--white:#fff;color-scheme:light}
+*{box-sizing:border-box}
+html{overflow-x:clip}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 "Bricolage Grotesque",system-ui,sans-serif;overflow-x:clip}
+img{max-width:100%;display:block}
+a{color:inherit}button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--pink);outline-offset:3px}
+.g{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.ser{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400}
+h2{font-weight:800;margin:0;line-height:.88;font-size:clamp(46px,8.4vw,132px);letter-spacing:-.045em;text-wrap:balance}
+h2 .ser{color:var(--pink);letter-spacing:-.02em}
+.tag{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bubble);border-radius:99px;padding:6px 14px;font-weight:600;font-size:14px;margin-bottom:18px}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;border-radius:99px;padding:17px 26px;font-weight:800;font-size:16px;text-decoration:none;border:2px solid var(--ink);background:var(--white);overflow:hidden;z-index:0;will-change:transform}
+.btn::before{content:"";position:absolute;inset:0;background:var(--ink);transform:translateY(102%);transition:transform .4s cubic-bezier(.7,0,.2,1);z-index:-1}
+.btn:hover{color:var(--bubble)}.btn:hover::before{transform:none}
+.btn.p{background:var(--pink);border-color:var(--ink);color:var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.btn.k{background:var(--ink);color:var(--bubble)}.btn.k::before{background:var(--pink)}.btn.k:hover{color:var(--ink)}
+.btn small{font-weight:600;opacity:.7}
+
+/* PRELOADER */
+#pre{position:fixed;inset:0;z-index:200;background:var(--pink);display:grid;place-items:center;color:var(--ink)}
+#pre .n{font-weight:800;font-size:clamp(90px,22vw,320px);letter-spacing:-.06em;line-height:1}
+#pre .l{position:absolute;bottom:calc(30px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font-weight:600}
+#pre .bar{position:absolute;left:0;bottom:0;height:8px;background:var(--ink);width:0}
+.nojs #pre{display:none}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto;z-index:60;display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:calc(14px + env(safe-area-inset-top,0px))}
+.pill{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.75);backdrop-filter:blur(12px);border:1.5px solid var(--ink);border-radius:99px;padding:6px}
+.pill a{text-decoration:none;font-weight:600;font-size:14px;padding:8px 14px;border-radius:99px}
+.pill a:hover{background:var(--bubble)}
+.pill a.cta{background:var(--ink);color:var(--bubble)}
+.logo{font-weight:800;font-size:18px;text-decoration:none;letter-spacing:-.03em;display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.75);backdrop-filter:blur(12px);border:1.5px solid var(--ink);border-radius:99px;padding:5px 16px 5px 5px}
+.logo i{width:34px;height:34px;border-radius:50%;background:var(--pink);border:2px solid var(--ink);display:grid;place-items:center;font-style:normal;font-size:13px}
+@media (max-width:760px){.pill .hm{display:none}}
+
+/* HERO */
+.hero{position:relative;min-height:100svh;overflow:hidden;padding-top:calc(110px + env(safe-area-inset-top,0px));display:grid;grid-template-rows:auto 1fr auto}
+.hero h1{margin:0;font-weight:800;font-size:clamp(62px,12.4vw,200px);line-height:.8;letter-spacing:-.06em;position:relative;z-index:3}
+.hero h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.06em}
+.hero h1 .w > span{display:inline-block}
+.hero h1 .ser{color:var(--pink);font-size:.78em;letter-spacing:-.02em}
+.mean{position:absolute;right:max(20px,env(safe-area-inset-right,0px));top:calc(120px + env(safe-area-inset-top,0px));z-index:4;max-width:220px;text-align:right;font-size:14px;color:var(--soft)}
+.mean b{display:block;font-family:"Instrument Serif",serif;font-style:italic;font-weight:400;font-size:28px;color:var(--ink);line-height:1}
+.fanwrap{position:relative;min-height:44svh;z-index:2}
+.fan{position:absolute;left:50%;bottom:14%;width:0;height:0}
+.card{position:absolute;left:0;bottom:0;width:clamp(120px,13vw,200px);aspect-ratio:3/4.4;margin-left:calc(clamp(120px,13vw,200px)/-2);border-radius:18px;overflow:hidden;border:3px solid var(--ink);background:var(--bubble);transform-origin:50% 135%;box-shadow:0 20px 40px -18px rgba(28,15,23,.5);cursor:pointer;transition:filter .3s}
+.card img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+.card span{position:absolute;left:8px;bottom:8px;background:var(--white);border:1.5px solid var(--ink);border-radius:99px;padding:3px 9px;font-size:12px;font-weight:800}
+.hfoot{position:relative;z-index:5;display:flex;justify-content:space-between;align-items:end;gap:18px;flex-wrap:wrap;padding-bottom:calc(26px + env(safe-area-inset-bottom,0px))}
+.hfoot p{margin:0;max-width:36ch;font-size:18px}
+.hfoot .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.sticker{position:absolute;z-index:6;width:var(--s,90px);touch-action:none;cursor:grab;user-select:none;filter:drop-shadow(3px 4px 0 var(--ink))}
+.sticker svg{width:100%;display:block}
+@media (max-width:700px){.mean{display:none}.fanwrap{min-height:40svh}}
+
+/* MARQUEE */
+.mq{background:var(--ink);color:var(--bubble);overflow:hidden;white-space:nowrap;rotate:-2.5deg;scale:1.06;border-block:3px solid var(--ink);position:relative;z-index:8}
+.mqw{overflow:hidden;padding-block:26px;margin-top:-24px}
+.mq div{display:inline-flex;gap:34px;padding-block:16px;animation:mq 26s linear infinite;font-weight:800;font-size:clamp(24px,3.6vw,46px);letter-spacing:-.03em}
+.mq span:nth-child(even){color:var(--pink);font-family:"Instrument Serif",serif;font-style:italic;font-weight:400}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* PROMO */
+.promo{padding-block:clamp(90px,12vw,160px)}
+.pgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.ticket{position:relative;background:var(--white);border:3px solid var(--ink);border-radius:26px;padding:clamp(22px,3vw,36px);box-shadow:10px 10px 0 var(--ink);max-width:560px;width:100%;justify-self:center;rotate:-2deg}
+.ticket::before,.ticket::after{content:"";position:absolute;top:58%;width:34px;height:34px;border-radius:50%;background:var(--bg);border:3px solid var(--ink)}
+.ticket::before{left:-19px;clip-path:inset(0 0 0 50%)}.ticket::after{right:-19px;clip-path:inset(0 50% 0 0)}
+.ticket h3{margin:0 0 4px;font-weight:800;font-size:30px;letter-spacing:-.03em}
+.ticket .sub{color:var(--soft);margin:0 0 18px}
+.scratch{position:relative;border-radius:18px;overflow:hidden;border:2px dashed var(--ink);aspect-ratio:16/9}
+.scratch .prize{position:absolute;inset:0;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at 30% 20%,#fff 0,var(--bubble) 60%);padding:14px}
+.prize b{display:block;font-weight:800;font-size:clamp(46px,6vw,74px);line-height:.9;letter-spacing:-.05em;color:var(--cherry)}
+.prize s{color:var(--soft);font-weight:600}
+.prize em{display:block;font-style:normal;font-weight:800;font-size:17px;margin-top:6px}
+.scratch canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:grab}
+.menu3{display:grid;gap:8px;margin-top:18px}
+.menu3 div{display:flex;justify-content:space-between;gap:10px;border-bottom:1.5px dashed var(--line);padding-bottom:8px;font-weight:600}
+.menu3 s{color:var(--soft);font-weight:400;margin-right:8px}
+.menu3 b{color:var(--cherry)}
+.count{display:flex;gap:10px;margin:26px 0}
+.count div{background:var(--ink);color:var(--bubble);border-radius:16px;padding:12px 14px;min-width:78px;text-align:center}
+.count b{display:block;font-weight:800;font-size:34px;line-height:1;font-variant-numeric:tabular-nums}
+.count span{font-size:12px;font-weight:600}
+@media (max-width:860px){.pgrid{grid-template-columns:1fr}}
+
+/* MENU (hover preview) */
+.menu{padding-block:clamp(80px,10vw,140px);border-top:2px solid var(--ink)}
+.mrow{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) auto;gap:20px;align-items:center;padding-block:24px;border-bottom:2px solid var(--ink);text-decoration:none;position:relative}
+.mrow h3{margin:0;font-weight:800;font-size:clamp(30px,4.6vw,66px);letter-spacing:-.045em;line-height:1;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.mrow p{margin:0;color:var(--soft)}
+.mrow .pr{text-align:right;font-weight:800;font-size:clamp(22px,2.4vw,32px);white-space:nowrap}
+.mrow .pr s{display:block;font-size:14px;color:var(--soft);font-weight:600}
+.mrow:hover h3{transform:translateX(20px);color:var(--pink)}
+.mrow::before{content:"";position:absolute;inset:0 -20px;background:var(--bubble);transform:scaleY(0);transform-origin:bottom;transition:transform .45s cubic-bezier(.7,0,.2,1);z-index:-1}
+.mrow:hover::before{transform:scaleY(1)}
+.mrow{z-index:0}
+.peek{position:fixed;left:0;top:0;width:200px;aspect-ratio:3/4;border-radius:20px;border:3px solid var(--ink);overflow:hidden;pointer-events:none;z-index:50;opacity:0;scale:.5;transition:opacity .3s,scale .35s cubic-bezier(.3,1.6,.5,1)}
+.peek.on{opacity:1;scale:1}.peek img{width:100%;height:100%;object-fit:cover}
+@media (max-width:700px){.mrow{grid-template-columns:1fr auto}.mrow p{display:none}}
+.mgroup{margin:46px 0 0;padding-bottom:12px;border-bottom:2px solid var(--ink);font-family:"Instrument Serif",serif;font-style:italic;font-size:30px;color:var(--pink)}
+.mgroup:first-child{margin-top:0}
+
+/* STACK */
+.stack{padding-block:clamp(80px,10vw,130px)}
+.sc{position:sticky;top:calc(90px + var(--i)*22px);margin:0 auto 7vh;max-width:1100px;height:min(74svh,640px);border-radius:32px;border:3px solid var(--ink);overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);background:var(--c);transform-origin:50% 0}
+.sc .t{padding:clamp(22px,3.4vw,46px);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.sc .t b{font-weight:600;font-size:14px}
+.sc h3{margin:0;font-weight:800;font-size:clamp(40px,6vw,88px);line-height:.85;letter-spacing:-.05em}
+.sc h3 .ser{display:block}
+.sc p{margin:0;max-width:30ch}
+.sc .im{position:relative;overflow:hidden;border-left:3px solid var(--ink)}
+.sc .im img{width:100%;height:100%;object-fit:cover}
+@media (max-width:760px){.sc{grid-template-columns:1fr;grid-template-rows:auto 1fr;height:78svh}.sc .im{border-left:0;border-top:3px solid var(--ink)}.sc h3{font-size:44px}}
+
+/* TRY-ON */
+.try{padding-block:clamp(80px,10vw,140px);background:var(--ink);color:var(--bubble);border-radius:40px;margin-inline:max(10px,env(safe-area-inset-left,0px))}
+.try h2{color:#fff}
+.fq{display:grid;gap:26px;margin-top:40px}
+.fq h4{margin:0 0 12px;font-weight:600;font-size:15px;color:#d9a9bf}
+.fq h4 b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--pink);color:var(--ink);font-size:13px;margin-right:8px}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chips button{background:none;border:2px solid #5a3a4c;color:#fff;border-radius:99px;padding:12px 18px;font-weight:600;font-size:15px;transition:background .2s,border-color .2s,transform .2s}
+.chips button:hover{border-color:#fff;transform:translateY(-2px)}
+.chips button[aria-pressed=true]{background:var(--pink);border-color:var(--pink);color:var(--ink)}
+.res{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(20px,4vw,60px);align-items:center;margin-top:46px;border-top:2px solid #3a2531;padding-top:40px}
+.picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.pk{position:relative;border:none;padding:0;background:#2a1822;border-radius:20px;overflow:hidden;aspect-ratio:3/4.6}
+.pk img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.pk:hover img{transform:scale(1.06)}
+.pk span{position:absolute;left:8px;right:8px;bottom:8px;background:#fff;color:var(--ink);border-radius:12px;padding:6px 10px;font-weight:800;font-size:13px;text-align:left}
+.pk.top{outline:3px solid var(--pink);outline-offset:3px}
+.pk.top::after{content:"Best match";position:absolute;top:8px;left:8px;background:var(--pink);color:var(--ink);border-radius:99px;padding:4px 10px;font-weight:800;font-size:12px}
+.sum2{display:grid;gap:14px}
+.sum2 .k{font-weight:600;font-size:14px;color:#d9a9bf;margin:0}
+.sum2 .v{font-family:"Instrument Serif",serif;font-style:italic;font-size:clamp(30px,3.4vw,44px);color:#fff;margin:0;line-height:1}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price b{font-weight:800;font-size:40px;color:#fff;letter-spacing:-.03em}
+.price s{color:#a88799}
+.price em{font-style:normal;background:var(--pink);color:var(--ink);border-radius:99px;padding:4px 10px;font-weight:800;font-size:13px}
+@media (max-width:860px){.res{grid-template-columns:1fr}.picks{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.pk span{font-size:11px;padding:4px 6px}}
+
+/* ACADEMY / VISIT */
+.acad{padding-block:clamp(90px,12vw,160px)}
+.agrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.photos{position:relative;aspect-ratio:1;max-width:540px;width:100%;justify-self:center}
+.photos img{position:absolute;width:58%;aspect-ratio:3/4;object-fit:cover;object-position:center 85%;border-radius:22px;border:3px solid var(--ink)}
+.photos img:nth-child(1){left:0;top:0;rotate:-6deg}
+.photos img:nth-child(2){right:0;bottom:0;rotate:5deg}
+.list{list-style:none;padding:0;margin:24px 0;display:grid;gap:10px}
+.list li{display:flex;gap:12px;font-weight:600}.list li::before{content:"✦";color:var(--pink)}
+@media (max-width:860px){.agrid{grid-template-columns:1fr}}
+.visit{padding-block:0 clamp(80px,10vw,120px)}
+.vcard{border:3px solid var(--ink);border-radius:32px;background:var(--bubble);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);overflow:hidden}
+.vcard .t{padding:clamp(24px,4vw,56px);display:grid;gap:18px;align-content:start}
+.vcard .addr{font-weight:800;font-size:clamp(24px,2.8vw,38px);line-height:1.05;letter-spacing:-.03em;margin:0}
+.vcard img{width:100%;height:100%;object-fit:cover;object-position:center 75%;border-left:3px solid var(--ink)}
+.rows{display:grid;gap:10px}
+.rows div{display:flex;justify-content:space-between;gap:12px;border-top:2px solid var(--ink);padding-top:10px;flex-wrap:wrap;font-weight:600}
+.rows code{font:800 17px "Bricolage Grotesque",sans-serif;user-select:all}
+.mini{background:var(--white);border:2px solid var(--ink);border-radius:99px;padding:3px 12px;font-weight:800;font-size:13px}
+@media (max-width:860px){.vcard{grid-template-columns:1fr}.vcard img{border-left:0;border-top:3px solid var(--ink);max-height:340px}}
+.end{background:var(--pink);border-top:3px solid var(--ink);padding-block:40px;overflow:hidden}
+.end .big{margin:0;font-weight:800;font-size:clamp(70px,18vw,300px);line-height:.8;letter-spacing:-.07em;white-space:nowrap}
+.end .row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-weight:600;font-size:14px;margin-top:20px;padding-bottom:70px}
+@media (min-width:861px){.end .row{padding-bottom:0}}
+dialog{border:none;padding:0;background:transparent;width:min(92vw,460px)}
+dialog::backdrop{background:rgba(28,15,23,.8);backdrop-filter:blur(6px)}
+dialog img{width:100%;border-radius:22px;border:3px solid var(--ink)}
+.dbar{display:flex;justify-content:space-between;gap:10px;margin-top:12px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:70;padding:10px max(14px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px));display:none;gap:10px;transform:translateY(130%);transition:transform .4s}
+.sticky.show{transform:none}.sticky .btn{flex:1;justify-content:center;padding:14px 8px;font-size:15px}
+@media (max-width:860px){.sticky{display:flex}}
+#conf{position:fixed;inset:0;pointer-events:none;z-index:150}
+@media (prefers-reduced-motion:reduce){.mq div{animation:none}}
+</style>
+</head><body>
+
+
+<div id="pre" aria-hidden="true"><div class="n" id="pn">0</div><div class="l">Jari Jemari Studio · polishing your page</div><div class="bar" id="pb"></div></div>
+<canvas id="conf" aria-hidden="true"></canvas>
+
+<nav class="nav g">
+  <a class="logo" href="#top"><i>JJS</i>Jari Jemari</a>
+  <div class="pill"><a class="hm" href="#promo">Promo</a><a class="hm" href="#menu">Menu</a><a class="hm" href="#try">Find your set</a><a class="hm" href="#academy">Academy</a><a class="cta" href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener">Book now</a></div>
+</nav>
+
+<header class="hero g" id="top">
+  <h1 id="h1"><span class="w"><span>Pretty</span></span> <span class="w"><span>little</span></span><br><span class="w"><span class="ser">fingers.</span></span></h1>
+  <p class="mean"><b>jari jemari</b>Malay for "fingers". Ours are Korean‑nail trained, in Damansara Perdana.</p>
+  <div class="fanwrap" id="fanwrap"><div class="fan" id="fan"></div></div>
+  <div class="hfoot">
+    <p>Gel X, BIAB, chrome, 3D and hand‑painted nail art by a Korean nail specialist salon and academy. <b>First visit? Gel manicure from RM48.</b></p>
+    <div class="ctas">
+      <a class="btn p mag" href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener">Book on Fresha</a>
+      <a class="btn mag" href="#promo">Scratch for your first‑visit deal</a>
+    </div>
+  </div>
+</header>
+
+<div class="mqw"><div class="mq"><div id="mq"></div></div></div>
+
+<main>
+  <section class="promo g" id="promo">
+    <div class="pgrid">
+      <div class="ticket" id="ticket">
+        <h3>First‑time customer treat</h3>
+        <p class="sub">Scratch the card to see your welcome deal.</p>
+        <div class="scratch"><div class="prize"><div><b>RM108</b><s>usual price RM165</s><em>Gel X Extension + FREE gel manicure</em></div></div><canvas id="scr"></canvas></div>
+        <div class="menu3">
+          <div><span>Gel manicure</span><span><s>RM98</s><b>RM48</b></span></div>
+          <div><span>Orly Halal manicure</span><span><s>RM78</s><b>RM38</b></span></div>
+          <div><span>Cherry Bomb lash extension</span><span><b>30% off</b></span></div>
+        </div>
+      </div>
+      <div>
+        <span class="tag">✦ October promo ends soon</span>
+        <h2>New month, <span class="ser">prettier you</span></h2>
+        <div class="count" id="count"><div><b id="cd">0</b><span>days</span></div><div><b id="ch">0</b><span>hours</span></div><div><b id="cm">0</b><span>mins</span></div><div><b id="cs">0</b><span>secs</span></div></div>
+        <p style="color:var(--soft);max-width:42ch;margin:0 0 26px">BIAB RM108, Gel X RM118 and the mani + pedi Gel Combo at RM168 until 31 October. Limited slots every day.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn p mag" href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener">Claim on Fresha</a><a class="btn mag" id="waPromo" href="https://wa.me/60166242587" target="_blank" rel="noopener">WhatsApp Sheron</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu g" id="menu">
+        <h2>Pick your set</h2>
+    <p style="color:var(--soft);margin:14px 0 40px;max-width:46ch">Nails and Cherry Bomb lashes at October prices. Tap any row to book on Fresha.</p>
+    <div id="mlist"></div>
+  </section>
+  <div class="peek" id="peek"><img alt=""></div>
+
+  <section class="stack g" id="library">
+        <h2 style="margin-bottom:60px">Every set is one of one</h2>
+    <div id="cards"></div>
+  </section>
+
+  <section class="try g" id="try">
+        <h2>Find your set</h2>
+    <p style="color:#d9a9bf;max-width:46ch;margin:18px 0 0">Three taps. We match you to real sets from our studio and tell you exactly what to book.</p>
+    <div class="fq">
+      <div><h4><b>1</b>What's your vibe?</h4><div class="chips" id="qVibe"></div></div>
+      <div><h4><b>2</b>How long?</h4><div class="chips" id="qLen"></div></div>
+      <div><h4><b>3</b>First time at Jari Jemari?</h4><div class="chips" id="qNew"></div></div>
+    </div>
+    <div class="res">
+      <div class="picks" id="picks"></div>
+      <div class="sum2">
+        <p class="k">Your match</p><p class="v" id="mName"></p>
+        <p class="k">Book as</p><p style="margin:0;font-weight:800;font-size:20px;color:#fff" id="mSvc"></p>
+        <div class="price" id="mPrice"></div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px"><a class="btn p mag" id="waLook" href="https://wa.me/60166242587" target="_blank" rel="noopener">Book this on WhatsApp</a><a class="btn mag" href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener" style="background:transparent;color:#fff;border-color:#fff">Fresha</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="acad g" id="academy">
+    <div class="agrid">
+      <div class="photos"><img src="img/tech.jpg" alt="A nail tech student at work in the studio"><img src="img/crystal.jpg" alt="Hand placing crystals on a nail"></div>
+      <div>
+                <h2>Learn the craft</h2>
+        <p style="color:var(--soft);max-width:44ch">We teach nail courses in the same studio where we work, with Korean nail techniques, hands‑on practice and real clients.</p>
+        <ul class="list"><li>Nail courses for beginners and working techs</li><li>Korean nail art, Gel X, BIAB and 3D</li><li>Taught by our salon team</li></ul>
+        <a class="btn k mag" href="https://wa.me/60166242587?text=Hi%20Sheron!%20I'd%20like%20to%20ask%20about%20the%20JJS%20Nail%20Academy%20course." target="_blank" rel="noopener">Ask about the course</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit g" id="visit">
+    <div class="vcard">
+      <div class="t">
+                <p class="addr">G02, Block A, Perdana Exclusive Condominium, 15 Jalan PJU 8/1, Damansara Perdana</p>
+        <p style="margin:0;color:var(--soft)">47820 Petaling Jaya, Selangor. Look for our pink sign.</p>
+        <div class="rows">
+          <div><span>Call or WhatsApp Sheron</span><span><code id="ph">+60 16‑624 2587</code> <button class="mini" id="cp">Copy</button></span></div>
+          <div><span>Book online</span><a href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener">Fresha ↗</a></div>
+          <div><span>Gift cards</span><span>Ask us in the DM</span></div>
+          <div><span>Instagram</span><a href="https://www.instagram.com/jarijemaristudio_jjs/" target="_blank" rel="noopener">@jarijemaristudio_jjs ↗</a></div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn p mag" href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener">Book now</a><a class="btn mag" href="https://maps.google.com/?q=Jari+Jemari+Studio+Perdana+Exclusive+Condominium+Damansara+Perdana" target="_blank" rel="noopener">Directions</a></div>
+      </div>
+      <img src="img/salon.jpg" alt="Inside the pink Jari Jemari salon">
+    </div>
+  </section>
+</main>
+<footer class="end g"><p class="big" id="big">jari jemari</p><div class="row"><span>JJS Nail Academy and Salon, Korean nail specialists in Damansara Perdana</span><span>Concept by Arcwise Studios</span></div></footer>
+
+<div class="sticky" id="sticky"><a class="btn p" href="https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421" target="_blank" rel="noopener">Book on Fresha</a><a class="btn" href="https://wa.me/60166242587" target="_blank" rel="noopener">WhatsApp</a></div>
+<dialog id="dlg"><img id="dimg" alt=""><div class="dbar"><a class="btn p" id="dbook" href="https://wa.me/60166242587" target="_blank" rel="noopener" style="padding:12px 18px">I want this set</a><button class="btn" id="dx" style="padding:12px 18px">Close</button></div></dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+(function(){
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,fine=matchMedia('(pointer:fine)').matches,hasG=typeof gsap!=='undefined';
+const WA='60166242587';
+if(hasG&&typeof ScrollTrigger!=='undefined')gsap.registerPlugin(ScrollTrigger);
+let lenis=null;
+if(!reduce&&hasG&&typeof Lenis!=='undefined'){lenis=new Lenis({lerp:.09});lenis.on('scroll',ScrollTrigger.update);gsap.ticker.add(t=>lenis.raf(t*1000));gsap.ticker.lagSmoothing(0);
+  $$('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{duration:1.4,offset:-20})}}))}
+
+/* ===== preloader ===== */
+const pre=$('#pre');
+function intro(){
+  if(!hasG||reduce){pre.remove();return}
+  gsap.from('#h1 .w > span',{yPercent:110,rotate:6,duration:1.2,ease:'expo.out',stagger:.09});
+  gsap.from('.hfoot > *, .mean',{y:30,opacity:0,duration:1,stagger:.1,delay:.3,ease:'power3.out'});
+  openFan(true);dropStickers()}
+if(hasG&&!reduce){const o={v:0};gsap.to(o,{v:100,duration:1,ease:'power2.inOut',onUpdate:()=>{$('#pn').textContent=Math.round(o.v);$('#pb').style.width=o.v+'%'},
+  onComplete:()=>{gsap.to(pre,{clipPath:'inset(0 0 100% 0)',duration:.9,ease:'expo.inOut',onComplete:()=>pre.remove()});setTimeout(intro,250)}})}
+else{pre.remove();setTimeout(intro,0)}
+setTimeout(()=>{if(document.body.contains(pre)){pre.remove();intro()}},6000);
+
+/* ===== marquee ===== */
+const mw=['Gel X','Korean nail art','BIAB','chrome','Gel combo','3D flowers','Orly Halal','cat eye','Cherry Bomb lashes','french tips'];
+const mh=mw.map(x=>'<span>'+x+'</span>').join('');$('#mq').innerHTML=mh+mh;
+
+/* ===== hero fan of finger cards ===== */
+const FAN=[['chrome','Chrome 3D'],['vogue','Vogue'],['flowers3d','3D tropical'],['dots','Dotty french'],['tortoise','Tortoise']];
+const fan=$('#fan');
+const cards=FAN.map((f,i)=>{const c=document.createElement('button');c.className='card';c.innerHTML='<img src="img/'+f[0]+'.jpg" alt="'+f[1]+' nails by Jari Jemari"><span>'+f[1]+'</span>';c.dataset.cursor='See';
+  c.onclick=()=>openDlg(f[0],f[1]);fan.appendChild(c);return c});
+let spread=0,target=1,tilt=0;
+function layoutFan(){const n=cards.length,mid=(n-1)/2,w=innerWidth<700?16:22;
+  cards.forEach((c,i)=>{const k=i-mid,rot=k*w*spread+tilt*8,lift=-Math.abs(k)*14*spread+(c._h?-36:0);
+    c.style.transform='translateY('+lift+'px) rotate('+rot+'deg) scale('+(c._h?1.06:1)+')';c.style.zIndex=c._h?20:10-Math.abs(Math.round(k))})}
+cards.forEach(c=>{c.addEventListener('pointerenter',()=>{c._h=1;layoutFan()});c.addEventListener('pointerleave',()=>{c._h=0;layoutFan()})});
+function openFan(){if(!hasG||reduce){spread=1;layoutFan();return}const o={s:0};gsap.fromTo(o,{s:0},{s:1,duration:1.6,ease:'elastic.out(1,.6)',delay:.2,onUpdate:()=>{spread=o.s;layoutFan()}})}
+spread=reduce?1:0;layoutFan();
+if(fine)addEventListener('pointermove',e=>{if(scrollY>innerHeight)return;tilt=(e.clientX/innerWidth-.5);layoutFan()});
+if(hasG&&!reduce){ScrollTrigger.create({trigger:'.hero',start:'top top',end:'bottom top',scrub:true,onUpdate:s=>{spread=1+s.progress*.6;fan.style.transform='translateY('+(s.progress*120)+'px)';layoutFan()}})}
+
+/* ===== draggable stickers ===== */
+const SVG={
+ smile:'<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#ffe14d" stroke="#1c0f17" stroke-width="5"/><circle cx="35" cy="42" r="6" fill="#1c0f17"/><circle cx="65" cy="42" r="6" fill="#1c0f17"/><path d="M30 60 Q50 80 70 60" fill="none" stroke="#1c0f17" stroke-width="6" stroke-linecap="round"/></svg>',
+ cherry:'<svg viewBox="0 0 100 100"><path d="M50 10 C45 30 35 45 30 58 M50 10 C58 30 66 45 70 58 M50 10 C62 6 76 10 82 18" fill="none" stroke="#1c0f17" stroke-width="5" stroke-linecap="round"/><circle cx="30" cy="70" r="20" fill="#e3123e" stroke="#1c0f17" stroke-width="5"/><circle cx="70" cy="70" r="20" fill="#e3123e" stroke="#1c0f17" stroke-width="5"/><circle cx="24" cy="64" r="5" fill="#fff"/><circle cx="64" cy="64" r="5" fill="#fff"/></svg>',
+ star:'<svg viewBox="0 0 100 100"><path d="M50 4 L61 37 L96 38 L68 59 L78 94 L50 73 L22 94 L32 59 L4 38 L39 37Z" fill="#ff4fa3" stroke="#1c0f17" stroke-width="5" stroke-linejoin="round"/></svg>',
+ heart:'<svg viewBox="0 0 100 100"><path d="M50 88 C10 60 4 34 22 20 C36 10 48 20 50 30 C52 20 64 10 78 20 C96 34 90 60 50 88Z" fill="#fff" stroke="#1c0f17" stroke-width="5"/><text x="50" y="58" text-anchor="middle" font-family="Bricolage Grotesque,sans-serif" font-weight="800" font-size="20" fill="#1c0f17">JJS</text></svg>',
+ polish:'<svg viewBox="0 0 100 100"><rect x="38" y="6" width="24" height="34" rx="5" fill="#1c0f17"/><path d="M24 44 h52 a8 8 0 0 1 8 8 v34 a8 8 0 0 1 -8 8 h-52 a8 8 0 0 1 -8 -8 v-34 a8 8 0 0 1 8 -8z" fill="#ff4fa3" stroke="#1c0f17" stroke-width="5"/><path d="M28 54 v20" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg>'};
+const ST=[['smile',.06,.30,96],['cherry',.86,.52,92],['star',.72,.2,80],['heart',.12,.66,100],['polish',.5,.12,74]];
+const hero=$('.hero'),stickers=ST.map(([k,x,y,s])=>{const d=document.createElement('div');d.className='sticker';d.style.setProperty('--s',s+'px');d.innerHTML=SVG[k];d.dataset.cursor='Drag';hero.appendChild(d);
+  const o={el:d,x:0,y:0,vx:0,vy:0,r:(Math.random()-.5)*30,vr:0,fx:x,fy:y,held:false};let ox,oy,lx,ly,lt;
+  d.addEventListener('pointerdown',e=>{o.held=true;d.setPointerCapture(e.pointerId);ox=e.clientX-o.x;oy=e.clientY-o.y;lx=e.clientX;ly=e.clientY;lt=performance.now();d.style.cursor='grabbing'});
+  d.addEventListener('pointermove',e=>{if(!o.held)return;const n=performance.now(),dt=Math.max(1,n-lt);o.vx=(e.clientX-lx)/dt*16;o.vy=(e.clientY-ly)/dt*16;o.vr=o.vx*.5;lx=e.clientX;ly=e.clientY;lt=n;o.x=e.clientX-ox;o.y=e.clientY-oy});
+  const up=()=>{if(o.held&&Math.hypot(o.vx,o.vy)<1){o.vr=18}o.held=false;d.style.cursor=''};d.addEventListener('pointerup',up);d.addEventListener('pointercancel',up);return o});
+function placeStickers(){const W=hero.clientWidth,H=hero.clientHeight,m=innerWidth<700;stickers.forEach(o=>{o.el.style.width=m?'60px':'';o.x=o.fx*(W-(m?60:90));o.y=m?70+o.fy*H*.5:o.fy*H})}
+placeStickers();addEventListener('resize',placeStickers);
+function dropStickers(){if(!hasG)return;stickers.forEach((o,i)=>gsap.from(o,{y:-300,duration:1.2,delay:.4+i*.12,ease:'bounce.out'}))}
+(function tick(){const W=hero.clientWidth,H=hero.clientHeight;stickers.forEach(o=>{const s=o.el.offsetWidth;
+  if(!o.held){o.x+=o.vx;o.y+=o.vy;o.r+=o.vr;o.vx*=.93;o.vy*=.93;o.vr*=.92;if(o.x<0){o.x=0;o.vx*=-.7}if(o.x>W-s){o.x=W-s;o.vx*=-.7}if(o.y<70){o.y=70;o.vy*=-.7}if(o.y>H-s){o.y=H-s;o.vy*=-.7}}
+  o.el.style.transform='translate('+o.x+'px,'+o.y+'px) rotate('+o.r+'deg) scale('+(o.held?1.15:1)+')'});requestAnimationFrame(tick)})();
+
+/* ===== confetti ===== */
+const cf=$('#conf'),cc=cf.getContext('2d');let parts=[];
+function confetti(x,y){if(reduce)return;cf.width=innerWidth;cf.height=innerHeight;const cols=['#ff4fa3','#e3123e','#ffe14d','#1c0f17','#ffd3e6'];
+  for(let i=0;i<120;i++)parts.push({x,y,vx:(Math.random()-.5)*14,vy:-Math.random()*14-4,r:Math.random()*6+3,c:cols[i%5],a:Math.random()*6,va:(Math.random()-.5)*.3,l:0});
+  if(parts.length<=120)(function f(){cc.clearRect(0,0,cf.width,cf.height);parts.forEach(p=>{p.vy+=.4;p.x+=p.vx;p.y+=p.vy;p.a+=p.va;p.l++;cc.save();cc.translate(p.x,p.y);cc.rotate(p.a);cc.fillStyle=p.c;cc.fillRect(-p.r,-p.r/2,p.r*2,p.r);cc.restore()});
+    parts=parts.filter(p=>p.l<140&&p.y<cf.height+40);if(parts.length)requestAnimationFrame(f);else cc.clearRect(0,0,cf.width,cf.height)})()}
+
+/* ===== scratch card ===== */
+const sc=$('#scr'),sx=sc.getContext('2d');let scratched=false,sdown=false;
+function paintScratch(){const r=sc.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);sc.width=r.width*d;sc.height=r.height*d;sx.setTransform(d,0,0,d,0,0);
+  const g=sx.createLinearGradient(0,0,r.width,r.height);g.addColorStop(0,'#ff8cc1');g.addColorStop(.5,'#ff4fa3');g.addColorStop(1,'#d6327f');sx.globalCompositeOperation='source-over';sx.fillStyle=g;sx.fillRect(0,0,r.width,r.height);
+  sx.fillStyle='rgba(255,255,255,.18)';for(let i=0;i<60;i++){sx.beginPath();sx.arc(Math.random()*r.width,Math.random()*r.height,Math.random()*3+1,0,7);sx.fill()}
+  sx.fillStyle='#1c0f17';sx.font='800 '+Math.max(22,r.width/12)+'px "Bricolage Grotesque",sans-serif';sx.textAlign='center';sx.fillText('SCRATCH ME',r.width/2,r.height/2+4);
+  sx.font='600 14px "Bricolage Grotesque",sans-serif';sx.fillText('drag your finger or mouse',r.width/2,r.height/2+30)}
+paintScratch();addEventListener('resize',()=>{if(!scratched)paintScratch()});
+function scr(e){const r=sc.getBoundingClientRect();sx.globalCompositeOperation='destination-out';sx.beginPath();sx.arc(e.clientX-r.left,e.clientY-r.top,26,0,7);sx.fill()}
+function cleared(){const d=sx.getImageData(0,0,sc.width,sc.height).data;let c=0;for(let i=3;i<d.length;i+=64)if(d[i]===0)c++;return c/(d.length/64)}
+sc.addEventListener('pointerdown',e=>{sdown=true;sc.setPointerCapture(e.pointerId);scr(e)});
+sc.addEventListener('pointermove',e=>{if(sdown)scr(e)});
+sc.addEventListener('pointerup',e=>{sdown=false;if(!scratched&&cleared()>.4){scratched=true;if(hasG)gsap.to(sc,{opacity:0,duration:.5,onComplete:()=>sc.style.display='none'});else sc.style.display='none';
+  const r=sc.getBoundingClientRect();confetti(r.left+r.width/2,r.top+r.height/2)}});
+sc.addEventListener('keydown',()=>{});
+
+/* ===== countdown to 31 Oct 2026, 23:59 MYT ===== */
+const END=new Date('2026-10-31T23:59:59+08:00').getTime();
+function tickC(){let s=Math.max(0,Math.floor((END-Date.now())/1000));$('#cd').textContent=Math.floor(s/86400);s%=86400;$('#ch').textContent=String(Math.floor(s/3600)).padStart(2,'0');s%=3600;$('#cm').textContent=String(Math.floor(s/60)).padStart(2,'0');$('#cs').textContent=String(s%60).padStart(2,'0');
+  if(END<Date.now())$('.promo .tag').textContent='✦ Ask about this month\'s promo'}
+tickC();setInterval(tickC,1000);
+$('#waPromo').href='https://wa.me/'+WA+'?text='+encodeURIComponent('Hi Sheron! I saw the first-time customer promo on your website. Can I book a slot?');
+
+/* ===== menu with hover peek ===== */
+const MENU=[['Gel X Extension','Lightweight, stylish, effortless. Up to 2 hours.','RM118','RM168','vogue'],['BIAB','Strong, natural, flawless. Up to 1.5 hours.','RM108','RM128','dots'],
+ ['Gel Combo','Mani + pedi, the total pamper. Up to 2 hours.','RM168','RM188','tortoise'],['Gel Manicure','First visit price for new customers.','RM48','RM98','pop'],
+ ['Orly Halal Manicure','Breathable halal polish. First visit price.','RM38','RM78','pop'],['Nail Art Add‑ons','Chrome, 3D, crystals, hand‑painted. Ask for a quote.','Ask us','','flowers3d'],
+ ['6D Lush lashes','Cherry Bomb by JJS. 1 hr 30 min.','RM158','RM218','salon'],['Keratin Lash Lift & Tint','Cherry Bomb by JJS. 1 hr.','RM98','RM178','salon'],['Lash 1D Natural','Cherry Bomb by JJS. 1 hr 30 min.','RM98','RM138','salon'],['Body Milk Bleaching','Cherry Bomb by JJS. 30 min.','RM128','RM158','salon']];
+const ml=$('#mlist'),peek=$('#peek');
+MENU.forEach((m,mi)=>{if(mi===0||m[0]==='6D Lush lashes'){const g=document.createElement('p');g.className='mgroup';g.textContent=mi===0?'Nails':'Cherry Bomb lashes and beauty';ml.appendChild(g)}const a=document.createElement('a');a.className='mrow';a.href='https://www.fresha.com/book-now/jari-jemari-studio-pz53tejj/all-offer?id=1512384&share=true&pId=1436421';a.target='_blank';a.rel='noopener';a.dataset.img=m[4];a.dataset.cursor='Book';
+  a.innerHTML='<h3>'+m[0]+'</h3><p>'+m[1]+'</p><span class="pr">'+(m[3]?'<s>'+m[3]+'</s>':'')+m[2]+'</span>';ml.appendChild(a);
+  if(fine){a.addEventListener('pointerenter',()=>{peek.querySelector('img').src='img/'+m[4]+'.jpg';peek.classList.add('on')});a.addEventListener('pointerleave',()=>peek.classList.remove('on'))}});
+let px=0,py=0,PX=0,PY=0;if(fine){addEventListener('pointermove',e=>{PX=e.clientX+24;PY=e.clientY-140});(function p(){px+=(PX-px)*.14;py+=(PY-py)*.14;peek.style.transform='translate('+px+'px,'+py+'px) rotate('+((PX-px)*.06)+'deg)';requestAnimationFrame(p)})()}
+
+/* ===== stacking design library ===== */
+const LIB=[['chrome','Liquid','chrome','Molten silver with pearls and 3D texture.','#d9dde3'],['vogue','Vogue','& roses','Hand‑painted lettering and red rose details.','#ffd3e6'],
+ ['flowers3d','Tropical','3D','Raised hibiscus, gold studs and rainbow gradients.','#ffe9a8'],['tortoise','Tortoise','shell','Warm amber marble tips over a clean nude.','#f3c9a8'],
+ ['dots','Dotty','french','Polka dot tips with hand‑painted lilies.','#ffffff'],['halloween','Spooky','season','Ghosts, pumpkins and webs for October.','#ffcf9e']];
+const cwrap=$('#cards');
+LIB.forEach((l,i)=>{const s=document.createElement('article');s.className='sc';s.style.setProperty('--i',i);s.style.setProperty('--c',l[4]);
+  s.innerHTML='<div class="t"><b>Set '+String(i+1).padStart(2,'0')+' / '+String(LIB.length).padStart(2,'0')+'</b><div><h3>'+l[1]+'<span class="ser">'+l[2]+'</span></h3></div><div style="display:grid;gap:16px"><p>'+l[3]+'</p><a class="btn k" style="justify-self:start" href="https://wa.me/'+WA+'?text='+encodeURIComponent('Hi Sheron! I love the '+l[1]+' '+l[2]+' set on your website. Can I book it?')+'" target="_blank" rel="noopener" data-cursor="Book">I want this set</a></div></div><div class="im"><img src="img/'+l[0]+'.jpg" alt="'+l[1]+' '+l[2]+' nails"></div>';
+  cwrap.appendChild(s)});
+if(hasG&&!reduce){const scs=$$('.sc');scs.forEach((s,i)=>{if(i===scs.length-1)return;
+  gsap.fromTo(s,{scale:1,filter:'brightness(1)'},{scale:.9,filter:'brightness(.85)',ease:'none',scrollTrigger:{trigger:scs[i+1],start:'top bottom',end:'top '+(90+(i+1)*22)+'px',scrub:true}});
+  gsap.fromTo(s.querySelector('.im img'),{scale:1.25},{scale:1,ease:'none',scrollTrigger:{trigger:s,start:'top bottom',end:'top 100px',scrub:true}})})}
+
+/* ===== set finder (real photos) ===== */
+const SETS={chrome:'Liquid chrome',smoke:'Smoky marble',crystal:'Crystal bling',pop:'Pop french',cartoon:'Cartoon pop',tropical:'Tropical 3D',flowers3d:'3D hibiscus',tortoise:'Tortoise shell',dots:'Dotty french',vogue:'Vogue & roses',halloween:'Spooky season'};
+const VIBES=[['Clean & soft',['tortoise','dots','pop']],['Bold colour',['tropical','cartoon','flowers3d']],['Chrome & bling',['chrome','smoke','crystal']],['Art & details',['vogue','halloween','dots']]];
+const LENS=['Short','Medium','Long'];
+const SVC=[ // [name, first-visit price, normal/promo price, was]
+ ['Gel Manicure','RM48','RM98'],['BIAB','RM108','RM128'],['Gel X Extension','RM108 + free gel mani','RM118','RM168']];
+const F={v:0,l:1,n:0};
+function chips(id,list,key){const box=$('#'+id);list.forEach((t,i)=>{const b=document.createElement('button');b.type='button';b.textContent=t;b.setAttribute('aria-pressed',i===F[key]);
+  b.onclick=()=>{F[key]=i;box.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));findSet(true)};box.appendChild(b)})}
+chips('qVibe',VIBES.map(v=>v[0]),'v');chips('qLen',LENS,'l');chips('qNew',['Yes, first visit','I\'ve been before'],'n');
+function findSet(anim){const ids=VIBES[F.v][1],first=F.n===0,len=LENS[F.l];
+  $('#picks').innerHTML=ids.map((k,i)=>'<button class="pk'+(i===0?' top':'')+'" data-k="'+k+'" data-cursor="See"><img src="img/'+k+'.jpg" alt="'+SETS[k]+' nails by Jari Jemari"><span>'+SETS[k]+'</span></button>').join('');
+  $$('#picks .pk').forEach(b=>b.onclick=()=>openDlg(b.dataset.k,SETS[b.dataset.k]));
+  const top=SETS[ids[0]];$('#mName').textContent=top+', '+len.toLowerCase();
+  let svc,price;
+  if(F.l===0){svc='Gel Manicure';price=first?'<b>RM48</b><s>RM98</s><em>First visit</em>':'<b>Ask us</b>'}
+  else if(F.l===1){svc='BIAB';price='<b>RM108</b><s>RM128</s><em>October promo</em>'}
+  else{svc=first?'Gel X Extension + free gel manicure':'Gel X Extension';price=first?'<b>RM108</b><s>RM165</s><em>First visit</em>':'<b>RM118</b><s>RM168</s><em>October promo</em>'}
+  if(VIBES[F.v][0]!=='Clean & soft')svc+=' + nail art';
+  $('#mSvc').textContent=svc;$('#mPrice').innerHTML=price+(VIBES[F.v][0]!=='Clean & soft'?'<span style="color:#a88799;font-size:14px;width:100%">Nail art is quoted on the design.</span>':'');
+  $('#waLook').href='https://wa.me/'+WA+'?text='+encodeURIComponent('Hi Sheron! I used the set finder on your website. I like the "'+top+'" look, '+len.toLowerCase()+' length. I think it\'s '+svc+'.'+(first?' It\'s my first visit.':'')+' Can I book a slot?');
+  if(anim&&hasG&&!reduce)gsap.from('#picks .pk',{y:60,rotate:i=>(i-1)*6,opacity:0,duration:.7,stagger:.08,ease:'back.out(1.6)'})}
+findSet(false);
+
+/* ===== headings + misc motion ===== */
+if(hasG&&!reduce){
+  gsap.from('#ticket',{rotate:-14,y:120,opacity:0,duration:1.3,ease:'expo.out',scrollTrigger:{trigger:'#promo',start:'top 75%'}});
+  gsap.from('.photos img',{y:120,rotate:0,opacity:0,stagger:.15,duration:1.2,ease:'expo.out',scrollTrigger:{trigger:'.photos',start:'top 80%'}});
+  $('#big').innerHTML=[...'jari jemari'].map(c=>'<span style="display:inline-block">'+(c===' '?'&nbsp;':c)+'</span>').join('');
+  gsap.from('#big span',{yPercent:100,rotate:12,stagger:.04,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:'.end',start:'top 90%'}});
+}
+
+/* magnetic */
+if(fine&&hasG)$$('.mag').forEach(b=>{b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();gsap.to(b,{x:(e.clientX-r.left-r.width/2)*.3,y:(e.clientY-r.top-r.height/2)*.4,duration:.4,ease:'power3.out'})});
+  b.addEventListener('pointerleave',()=>gsap.to(b,{x:0,y:0,duration:.7,ease:'elastic.out(1,.4)'}))});
+
+/* dialog */
+function openDlg(f,t){$('#dimg').src='img/'+f+'.jpg';$('#dimg').alt=t+' nails';$('#dbook').href='https://wa.me/'+WA+'?text='+encodeURIComponent('Hi Sheron! I want the '+t+' nails I saw on your website. Can I book?');$('#dlg').showModal()}
+$('#dx').onclick=()=>$('#dlg').close();$('#dlg').addEventListener('click',e=>{if(e.target.id==='dlg')$('#dlg').close()});
+
+/* copy phone */
+$('#cp').onclick=function(){const b=this;const sel=()=>{const r=document.createRange();r.selectNodeContents($('#ph'));getSelection().removeAllRanges();getSelection().addRange(r)};
+  try{navigator.clipboard.writeText('+60166242587').then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)},sel)}catch(e){sel()}};
+
+/* sticky */
+const st=$('#sticky');addEventListener('scroll',()=>st.classList.toggle('show',scrollY>innerHeight*.8),{passive:true});
+})();
+</script>
+
+</body></html>
